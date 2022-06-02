@@ -1,12 +1,16 @@
 body {
     background-color: #1A1A1A;
-    background: url(images/home_photo_cover1.jpg) no-repeat center center fixed;
+    background: url(images/home_photo_cover2.jpg) no-repeat center center fixed;
     background-size: cover;
     color: azure;
+    margin: 0;
 }
 
-section {
-    background-color: #1A1A1A
+main {
+    background-color: #1A1A1A;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: auto;
 }
 
 h1 {
@@ -16,7 +20,7 @@ h1 {
 
 header{
     padding: 20px;
-    
+    height: 100vh;
 }
 
 .blue_overline_text {
@@ -33,11 +37,10 @@ header{
     background-color: #FFFFFF60;
     padding: 20px;
     margin: 20px;
-    width: 28.55%;
 }
 
 #tech {
-    float: left;
+    
     border-style: solid;
     border-width: 5px;
     border-color: #B3465F;
@@ -45,7 +48,7 @@ header{
 }
 
 #qualifications {
-    float: left;
+    
     border-style: solid;
     border-width: 5px;
     border-color: #FFF996;
@@ -53,7 +56,7 @@ header{
 }
 
 #service {
-    float: left;
+    
     border-style: solid;
     border-width: 5px;
     border-color: #63D6FF;
