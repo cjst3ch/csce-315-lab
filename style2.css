@@ -17,6 +17,10 @@ h1 {
     text-align: center;
 }
 
+.h_align{
+    text-align: center;
+}
+
 header{
     padding: 20px;
     height: 100vh;
@@ -40,7 +44,7 @@ header{
 
 #tech {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 30% 30% 30%;
     grid-template-rows: 50px auto;
     width: auto;
     
@@ -49,32 +53,46 @@ header{
     border-color: #B3465F;
     border-radius: 5px;
     font-size: larger;
+    justify-content: center;
 }
 
-#column1 {
+#techColumn1 {
     grid-column: 1;
     grid-row: 1;
 }
 
-#column4 {
+#techColumn4 {
     grid-column: 1;
     grid-row: 2;
-    align-content: center;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#column5 {
+#techColumn5 {
     grid-column: 2;
     grid-row: 2;
-    align-content: center;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#column6 {
+#techColumn6 {
     grid-column: 3;
     grid-row: 2;
-    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#column6 > h3 {
+#techColumn4 li {
+    margin: 10px;
+}
+
+#techColumn5 li {
+    margin: 10px;
+}
+
+#techColumn6 > h3 {
     font-size: larger;
 }
 
