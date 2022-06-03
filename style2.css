@@ -48,26 +48,34 @@ header{
     border-width: 5px;
     border-color: #B3465F;
     border-radius: 5px;
+    font-size: larger;
 }
 
-.column1 {
+#column1 {
     grid-column: 1;
     grid-row: 1;
 }
 
-.column4 {
+#column4 {
     grid-column: 1;
     grid-row: 2;
+    align-content: center;
 }
 
-.column5 {
+#column5 {
     grid-column: 2;
     grid-row: 2;
+    align-content: center;
 }
 
-.column6 {
+#column6 {
     grid-column: 3;
     grid-row: 2;
+    align-content: center;
+}
+
+#column6 > h3 {
+    font-size: larger;
 }
 
 #qualifications {
