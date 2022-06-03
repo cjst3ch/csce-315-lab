@@ -7,7 +7,7 @@ body {
 }
 
 main {
-    background-color: #1A1A1A;
+    background-color: #500000;
     width: auto;
     display: inline-block;
 }
@@ -19,6 +19,17 @@ h1 {
     text-transform: uppercase;
     font-family: 'Bebas Neue';
     letter-spacing: .2em;
+}
+
+.buttons {
+    color: azure;
+    background-color: #500000;
+    width: 100px;
+    height: 50px;
+}
+
+.buttons:hover {
+    background-color: #50000050;
 }
 
 header h2 {
