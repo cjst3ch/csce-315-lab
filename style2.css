@@ -1,6 +1,6 @@
 body {
     background-color: #1A1A1A;
-    background: url(images/home_photo_cover2.jpg) no-repeat center center fixed;
+    background: url(images/home_photo_cover1.jpg) no-repeat center center fixed;
     background-size: cover;
     color: azure;
     margin: 0;
@@ -41,7 +41,7 @@ header{
 #tech {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 100px auto;
+    grid-template-rows: 50px auto;
     width: auto;
     
     border-style: solid;
